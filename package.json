@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-ts",
-  "description": "A TypeScript starter for Gatsby that includes all you need to build amazing projects",
+  "description": "Gatsby starter typescript/eslint/prettier bare",
   "version": "1.0.0",
   "private": true,
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (https://joaopedro.dev)",
+  "author": "roopeBee",
   "license": "MIT",
   "keywords": [
     "gatsby",
@@ -48,7 +48,6 @@
     "babel-jest": "27.0.6",
     "babel-plugin-root-import": "6.6.0",
     "babel-preset-gatsby": "1.10.0",
-    "cz-conventional-changelog": "3.3.0",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "8.3.0",
