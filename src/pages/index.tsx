@@ -1,17 +1,10 @@
-import React from 'react';
-import { PageProps } from 'gatsby';
-
-import Title from '@/components/Title';
+import React from 'react'
+import { PageProps } from 'gatsby'
 
 const Home: React.FC<PageProps> = () => (
   <main>
-    <Title>Hello TypeScript!</Title>
-    <p>A TypeScript starter for Gatsby. Great for advanced users.</p>
-    <p>
-      Follow me on Twitter (
-      <a href="https://twitter.com/jpedroschmitz">@jpedroschmitz</a>)
-    </p>
+    <h1>Hello TypeScript!</h1>
   </main>
-);
+)
 
-export default Home;
+export default Home
