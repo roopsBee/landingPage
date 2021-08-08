@@ -28,6 +28,7 @@ const Hero: React.FC<Props> = ({ children, ...props }) => {
   return (
     <>
       <GatsbyImage
+        style={{ position: 'absolute' }}
         css={{
           position: 'absolute',
           top: 0,
@@ -37,7 +38,7 @@ const Hero: React.FC<Props> = ({ children, ...props }) => {
           '&::after': {
             content: '""',
             background:
-              'linear-gradient(130deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 45%, rgba(0,117,0,0) 100%)',
+              'linear-gradient(130deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.90) 50%, rgba(0,0,0,0) 100%)',
             position: 'absolute',
             left: 0,
             top: 0,
