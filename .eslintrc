@@ -89,13 +89,16 @@
         ],
         "quotes": "off",
         "@typescript-eslint/quotes": [
-          2,
+          0,
           "backtick",
           {
             "avoidEscape": true
           }
         ],
-        "@typescript-eslint/no-unused-vars": [2, { "argsIgnorePattern": "^_" }]
+        "@typescript-eslint/no-unused-vars": [1, { "argsIgnorePattern": "^_" }],
+        "@typescript-eslint/ban-ts-comment": {
+          "ts-ignore": "allow-with-description"
+        }
       }
     }
   ],
